@@ -3,19 +3,10 @@ body{
     color: #E1AD01;
   
  }
- .myrows{
-   border: 3px solid green;
-   padding: 5px;
- }
- .mycols{
-   border: 3px solid red;
- }
- .mycontainer{
-   background-color: aqua;
- }
- /* #topHeader{
-   border-bottom: 1px solid #ebebeb;
- } */
+.photo
+{
+padding: 10px,70px,1000px,100px; 
+}
  #topHeader a{
    color: #2c3e50;
    font-weight: 600;
@@ -42,22 +33,14 @@ body{
  }
  
  
- 
- 
- 
- .item1 { grid-area: main1; }
- .item2 { grid-area: main2; }
- .item3 { grid-area: main3; }
- .item4 { grid-area: main4; }
- .item4 { grid-area: main5; }
- .grid-container {
-   display: grid;
-   grid-template-areas:
-     'main1 main2 main3 main4 main5';
-   grid-gap: 30px;
-   background-color: #0c0705;
-   padding: 20px;
+ .gap-system{
+   display: flex;
+   grid-gap: 50px;
  }
+ 
+ 
+ 
+ 
  .ritem1 { grid-area: r1; }
  .ritem2 { grid-area: r2; }
  .ritem3 { grid-area: r3; }
@@ -68,7 +51,7 @@ body{
    grid-gap: 5px;
    background-color: #1d1920;
    padding: 5px;
- }
+ } 
  
  
  
@@ -98,9 +81,7 @@ body{
    color: white;
  }
  
- /* END : Footer */
  
- /* Start : Home page first hero section */
  .top-hero-section{
  background-color: #3498db;
  color: white;
@@ -112,18 +93,12 @@ body{
  .qualities-img{
    width:200px;
  }
- /* END : Home page first hero section */
  
- /* START : Home page 3rd requirement section */
  .requirements-section{
    background-color: #004d80;
    color: white;
  }
- /* END : Home page 3rd requirement section */
  
- 
- /* START : Home page 4rd newsletter section */
-  
  .search .form-control {
      height: 35px;
      border-color: transparent;
@@ -140,22 +115,17 @@ body{
  }
  
  
- /* END : Home page 4rd newsletter section */
  
  
  .clients-section{
    background-color: #f0f0f0;
  }
  
- /* END-------------------- of home page ---------------------- */
  
- /* START-------------------- of About page ---------------------- */
  .breadcrumbs-section{
    background-color: #e9ecef;
  }
- /* END-------------------- of About page ---------------------- */
- 
- /* START-------------------- of Contact Us Page ---------------------- */
+
  .address p{
    font-weight: 600;
  }
@@ -171,19 +141,15 @@ body{
  * {
    box-sizing: border-box;
  }
- 
- 
- 
- 
- 
- 
+  
  form.example input[type=text] {
    padding: 5px;
    font-size: 15px;
    border: 1px solid grey;
    float: left;
    width: 80%;
-   background: #413f3f;
+   background: #ffffff;
+   border-radius: 10px 0px 0px 10px;
  }
  
  form.example button {
@@ -196,11 +162,9 @@ body{
    border: 1px solid grey;
    border-left: none;
    cursor: pointer;
+   border-radius: 0 10px 10px 0;
  }
  
- /* form.example button:hover {
-   background: #0b7dda;
- } */
  
  form.example::after {
    content: "";
@@ -244,36 +208,35 @@ body{
    border: none;
    outline: none;
    color: white;
-   padding: 2px 2px;
+   padding: 0px 2px;
    background-color: inherit;
    font-family: inherit;
    margin: 0;
  } 
  
- /* .navbar1 a:hover, .dropdown1:hover .dropbtn {
-   background-color: red;
- } */
  
  .dropdown1-content {
    display: none;
    position: absolute;
    background-color: #f9f9f9;
    min-width: 100px;
-   box-shadow: 0px 8px 16px 0px rgba(133, 128, 128, 0.2);
+   box-shadow: 0px 8px 16px 0px rgba(20, 211, 147, 0.2);
    z-index: 2;
  }
  
  .dropdown1-content a {
    float: none;
-   color: black;
-   padding: 5px 35px;
+   color: rgb(170, 38, 38);
+   padding: 10px 45px;
    text-decoration: none;
    display: block;
    text-align: left;
  }
  
  .dropdown1-content a:hover {
-   background-color: #ddd;
+   background-color: rgb(179, 24, 24);
+   
+   
  }
  
  .dropdown1:hover .dropdown1-content {
