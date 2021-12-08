@@ -14,50 +14,46 @@
 </head>
 <!-- xs<576 | 576<sm<768 | 768<md<992 | 992<lg<1200 | 1200<xl -->
 
-<body>
+<body class="col">
   <!-- START: HEADER -->
   
-  <header>
+  <header style="margin-left: -2%;">
 
     <div class="p-1" id="topHeader" style="background-color:#1D1920;">
       <header class="container">
-        <div class="grid-container1">
-
-          <div class="ritem1">
+        <div class="row">  
+          
+          <div class="col-2" style="margin-left:0%;">
             <a class="navbar-brand" href="">
               <img src="imgs/logo.PNG" width="150px" alt="">
             </a>
-          </div>
-
-          <div class="ritem2">
-            <div class="search">
-              <form class="example" action="/action_page.php">
-                <input type="text" placeholder="Search.." name="search">
-                <button type="submit"><i class="fa fa-search"></i></button>
-              </form>
-
-            </div>
-          </div>
-
-
-          <div class="ritem3">
-            <div class="navbar1">
-
-              <div class="dropdown1">
-                <button class="dropbtn">Dropdown
-                  <i class="fa fa-caret-down"></i>
-                </button>
-                <div class="dropdown1-content">
-                  <a href="#">Mumbai</a>
-                  <a href="#">Delhi</a>
-                  <a href="#">Bangluru</a>
-                </div>
+          </div>  
+          
+          <div class="col-10">
+            <div class="row">
+              <div class="input-group col-4"style="margin-left:20% ;" >
+                <input type="text" class="form-control" placeholder="Search.." name="Search">
+                <span class="input-group-btn">
+                  <button class="btn btn-theme" type="submit" style="background-color: #e1ad01;"><i class="fa fa-search"></i></button>
+                </span>
+              </div>
+          
+              <div class="form-group col-3"style="margin-left:21% ;">
+                <select class="form-control" name="" id="">
+                  <option selected>City</option>
+                  <option>Delhi</option>
+                  <option>Mumbai</option>
+                  <option>Banglore</option>
+                  <option>Kolkata</option>
+                </select>
               </div>
             </div>
-          </div>
+          </div>  
+
+        </div> 
       </header>
     </div>
-  </header>
+
 
    <section class="breadcrumbs-section" style="background-color: #030303;">
      <div class="container p-1 p-sm-3">
@@ -123,7 +119,7 @@
           <div class="row mt-4">
             <div class="col text-center">
               <h3>
-                Our awesome team
+                Our Team
               </h3>
             </div>
           </div>
@@ -135,7 +131,7 @@
                 CEO
               </h5>
               <p>
-                <i>- Tanmay Sakpal</i>
+                <i>- Prakhar</i>
               </p>
     
             </div>
@@ -145,7 +141,7 @@
                 Senior Business Analyst
               </h5>
               <p>
-                <i>- Sachin Satam</i>
+                <i>- xyz</i>
               </p>
     
             </div>
@@ -156,7 +152,7 @@
                   Senior HR
                 </h5>
                 <p>
-                  <i>- Neha Yadav</i>
+                  <i>- xyz</i>
                 </p>
             </div>
           </div>
@@ -168,7 +164,7 @@
                   Java Developer
                 </h5>
                 <p>
-                  <i>- Abhishek Sali</i>
+                  <i>- Prakhar</i>
                 </p>
             </div>
             <div class="col-md-4 text-center">
@@ -177,7 +173,7 @@
                   Sales Head
                 </h5>
                 <p>
-                  <i>- Varun Agrawal</i>
+                  <i>- xyz</i>
                 </p>
             </div>
             <div class="col-md-4 text-center">
@@ -186,7 +182,7 @@
                   Software Intern
                 </h5>
                 <p>
-                  <i>- Bhavika Vartak</i>
+                  <i>- xyz</i>
                 </p>
             </div>
           </div>
@@ -207,22 +203,22 @@
         <hr>
         <div class="row">
             <div class="col-md-2 col-6">
-              <img class="img-fluid feature-img p-2" src="imgs/clients/apple.png" alt="Card image cap">
+              <img class="img-fluid feature-img p-2" src="imgs/icons/pvr.png" alt="Card image cap">
             </div>
             <div class="col-md-2 col-6">
-              <img class="img-fluid feature-img p-2" src="imgs/clients/google.png" alt="Card image cap">
+              <img class="img-fluid feature-img p-2" src="imgs/icons/inox.png" alt="Card image cap">
             </div>
             <div class="col-md-2 col-6">
-              <img class="img-fluid feature-img p-2" src="imgs/clients/infosys.png" alt="Card image cap">
+              <img class="img-fluid feature-img p-2" src="imgs/icons/Netflix-Logo.wine.png" alt="Card image cap">
             </div>
             <div class="col-md-2 col-6">
-              <img class="img-fluid feature-img p-2" src="imgs/clients/lnt.png" alt="Card image cap">
+              <img class="img-fluid feature-img p-2" src="imgs/icons/laughclub.png" alt="Card image cap">
             </div>
             <div class="col-md-2 col-6">
-              <img class="img-fluid feature-img p-2" src="imgs/clients/netflix1.png" alt="Card image cap">
+              <img class="img-fluid feature-img p-2" src="imgs/icons/Yash-Raj.png" alt="Card image cap">
             </div>
             <div class="col-md-2 col-6">
-              <img class="img-fluid feature-img p-2" src="imgs/clients/yahoo.png" alt="Card image cap">
+              <img class="img-fluid feature-img p-2" src="imgs/icons/Star_Sports.png" alt="Card image cap">
             </div>
           </div>
         
@@ -243,11 +239,12 @@
           <p>
             CONNECT WITH US ON <a href="#"> </a>
           </p>
-          <a style="color:silver;" class="p-1" href="#"><i class="fab fa-2x fa-facebook-square"></i></a>
-          <a style="color: silver;" class="p-1" href="#"><i class="fab fa-2x fa-google-plus-square"></i></a>
-          <a style="color: silver;" class="p-1" href="#"><i class="fab fa-2x fa-twitter-square"></i></a>
-          <a style="color: silver;" class="p-1" href="#"><i class="fab fa-2x fa-instagram"></i></a>
-          <a style="color: silver;" class="p-1" href="#"><i class="fab fa-2x fa-youtube"></i></a>
+        </p>
+        <a style="color:silver;" class="p-1" href="https://www.facebook.com/"><i class="fab fa-2x fa-facebook-square"></i></a>
+        <a style="color: silver;" class="p-1" href="https://accounts.google.com/signin/"><i class="fab fa-2x fa-google-plus-square"></i></a>
+        <a style="color: silver;" class="p-1" href="https://twitter.com/i/flow/login"><i class="fab fa-2x fa-twitter-square"></i></a>
+        <a style="color: silver;" class="p-1" href="https://www.instagram.com/"><i class="fab fa-2x fa-instagram"></i></a>
+        <a style="color: silver;" class="p-1" href="https://www.youtube.com/"><i class="fab fa-2x fa-youtube"></i></a>
         </div>
 
         <div class="col-md-3  pl-4 pr-4">
